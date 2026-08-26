@@ -1,0 +1,5 @@
+{
+  "name": "databricks-job-lineage",
+  "description": "Read-only tracing for a Databricks job or run: telemetry, task dependency graph, source file/notebook content, job-to-job orchestration, and Unity Catalog table lineage. Bundles the databricks-job-lineage skill with its MCP server.",
+  "version": "1.0.0"
+}

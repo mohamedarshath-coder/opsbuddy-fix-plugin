@@ -1,0 +1,20 @@
+{
+  "name": "opsbuddy-fix-plugin",
+  "owner": {
+    "name": "Mohamed Arshath",
+    "email": "mohamed.arshath@latentview.com"
+  },
+  "description": "Databricks incident-response tooling: autonomous diagnose-fix-PR-review-verify pipeline for failed jobs, plus a standalone read-only lineage tracer.",
+  "plugins": [
+    {
+      "name": "databricks-job-lineage",
+      "source": "./plugins/databricks-job-lineage",
+      "description": "Read-only tracing for a Databricks job or run: telemetry, dependency graph, source, orchestration, and Unity Catalog table lineage."
+    },
+    {
+      "name": "opsbuddy-fix",
+      "source": "./plugins/opsbuddy-fix",
+      "description": "Autonomous diagnose → fix → PR → review → real re-run verification pipeline for a failed Databricks job."
+    }
+  ]
+}

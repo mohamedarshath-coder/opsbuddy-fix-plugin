@@ -1,0 +1,5 @@
+{
+  "name": "opsbuddy-fix",
+  "description": "End-to-end autonomous incident response for failed Databricks jobs: diagnose, fix, PR, review, and verify against a real re-run — plus read-only lineage tracing. Bundles the opsbuddy-fix skill with the Databricks + GitHub MCP servers it depends on.",
+  "version": "1.0.0"
+}

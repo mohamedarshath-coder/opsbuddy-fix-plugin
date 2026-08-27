@@ -1,0 +1,9 @@
+{
+  "name": "opsbuddy-fix-scripts",
+  "version": "1.0.0",
+  "description": "Script-driven autonomous incident response for a failed Databricks job in the ai-sdlc-devops repo: opsbuddy-fix (11-phase orchestrator), databricks-debug (diagnosis + adversarial root-cause double-check), testing (static validation), and pr-review-opsbuddy-fix (Mode A PR review). Uses GitHub + Slack + this repo's own workflow/*.py scripts and the live Atlassian Jira MCP -- not a bundled MCP server. Only functions when the ai-sdlc-devops repo (or one with an identical workflow/ layout) is the current project.",
+  "author": {
+    "name": "LatentView"
+  },
+  "keywords": ["databricks", "incident-response", "github", "jira", "slack", "auto-fix", "orchestrator"]
+}

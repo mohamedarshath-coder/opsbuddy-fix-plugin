@@ -1,0 +1,12 @@
+[project]
+name = "opsbuddy-fix-databricks-mcp-server"
+version = "1.0.0"
+description = "Databricks Jobs/Workspace/Unity Catalog lineage tools, exposed over MCP (bundled copy for the opsbuddy-fix plugin)"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp==2.1.0",
+    "databricks-sdk>=0.30.0",
+]
+
+[tool.uv]
+package = false

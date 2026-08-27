@@ -2,3 +2,8 @@
 **/__pycache__/
 **/*.pyc
 **/.env
+
+# opsbuddy-fix-full intentionally commits its .venv for zero-setup portability -- see its
+# mcp-server/README.md. Un-ignore it (and everything inside it) explicitly.
+!plugins/opsbuddy-fix-full/mcp-server/.venv/
+!plugins/opsbuddy-fix-full/mcp-server/.venv/**

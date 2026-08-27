@@ -1,0 +1,9 @@
+{
+  "name": "opsbuddy-fix-full",
+  "version": "1.0.0",
+  "description": "Fully portable, end-to-end autonomous incident response for a failed Databricks job: opsbuddy-fix (11-phase orchestrator), databricks-debug (diagnosis + adversarial root-cause double-check), testing (static validation), and pr-review-opsbuddy-fix (Mode A PR review). Bundles its own Databricks MCP server (with a real .venv, no uv/PATH setup needed); GitHub and Jira are accessed through any already-connected MCP server for them. Installable and usable in any project.",
+  "author": {
+    "name": "LatentView"
+  },
+  "keywords": ["databricks", "incident-response", "github", "jira", "slack", "auto-fix", "orchestrator", "portable"]
+}

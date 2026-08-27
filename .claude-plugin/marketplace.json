@@ -17,9 +17,9 @@
       "description": "Autonomous diagnose → fix → PR → review → real re-run verification pipeline for a failed Databricks job."
     },
     {
-      "name": "opsbuddy-fix-scripts",
-      "source": "./plugins/opsbuddy-fix-scripts",
-      "description": "Script-driven (not MCP-server) version of the same incident-response pipeline, built for the ai-sdlc-devops repo specifically -- not portable to other projects."
+      "name": "opsbuddy-fix-full",
+      "source": "./plugins/opsbuddy-fix-full",
+      "description": "Fully portable version of the same 11-phase incident-response pipeline, with Jira ticketing and Slack alerting added -- installable and usable in any project."
     }
   ]
 }

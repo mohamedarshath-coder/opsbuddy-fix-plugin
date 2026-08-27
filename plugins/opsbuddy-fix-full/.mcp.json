@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "opsbuddy-databricks": {
+      "command": "${CLAUDE_PLUGIN_ROOT}/mcp-server/.venv/Scripts/python.exe",
+      "args": ["${CLAUDE_PLUGIN_ROOT}/mcp-server/server.py"],
+      "env": {
+        "DATABRICKS_HOST": "${DATABRICKS_HOST}",
+        "DATABRICKS_TOKEN": "${DATABRICKS_TOKEN}",
+        "DATABRICKS_SQL_WAREHOUSE_ID": "${DATABRICKS_SQL_WAREHOUSE_ID}",
+        "DATABRICKS_OPS_INCIDENT_TABLE": "${DATABRICKS_OPS_INCIDENT_TABLE}",
+        "DATABRICKS_TRIGGER_ALLOWLIST": "${DATABRICKS_TRIGGER_ALLOWLIST}"
+      }
+    }
+  }
+}
